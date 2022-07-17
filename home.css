@@ -693,6 +693,7 @@
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-sixunits);
+  background-color: #121414;
 }
 .home-contact {
   flex: 0 0 auto;
@@ -725,7 +726,9 @@
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
   backdrop-filter: saturate(200%) blur(30px);
+  background-size: cover;
   background-color: hsla(0,0%,100%,.8);
+  background-image: url("public/playground_assets/web3chain-700h.jpg");
 }
 .home-text43 {
   text-align: center;
@@ -1037,7 +1040,7 @@
     padding-right: var(--dl-space-space-tripleunit);
   }
   .home-card1 {
-    width: 615px;
+    width: auto;
     height: 598px;
   }
   .home-container16 {
@@ -1046,6 +1049,13 @@
   }
 }
 @media(max-width: 767px) {
+  .home-hero {
+    padding-bottom: 0px;
+  }
+  .home-container01 {
+    height: 628px;
+    margin-bottom: 0px;
+  }
   .home-card {
     align-items: center;
   }
@@ -1058,11 +1068,12 @@
     display: none;
   }
   .home-features {
+    height: 467px;
     max-width: 720px;
-    padding-top: var(--dl-space-space-doubleunit);
+    padding-top: 0px;
     padding-left: var(--dl-space-space-unitandahalfunit);
     padding-right: var(--dl-space-space-unitandahalfunit);
-    padding-bottom: var(--dl-space-space-doubleunit);
+    padding-bottom: 0px;
   }
   .home-container07 {
     max-width: 720px;
@@ -1130,6 +1141,13 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
+  .home-container05 {
+    width: 320px;
+    height: 244px;
+  }
+  .home-image {
+    width: 100%;
+  }
   .home-features {
     width: 100%;
     height: 854px;
@@ -1178,15 +1196,18 @@
   }
   .home-form {
     width: 100%;
+    align-self: flex-start;
+    padding-top: 0px;
   }
   .home-input {
-    width: 350px;
+    width: auto;
+    text-align: left;
   }
   .home-textinput {
-    width: 350px;
+    width: auto;
   }
   .home-textinput1 {
-    width: 350px;
+    width: auto;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -1214,7 +1235,7 @@
   .home-text84 {
     width: 362px;
     height: 210px;
-    margin-top: 0px;
+    margin-top: 25px;
     padding-bottom: 0px;
   }
 }
