@@ -1165,8 +1165,8 @@
     width: 438px;
   }
   .home-card1 {
-    width: 413px;
-    height: 641px;
+    width: auto;
+    height: 630px;
     padding: var(--dl-space-space-unit);
     margin-left: 0px;
     margin-right: 0px;
