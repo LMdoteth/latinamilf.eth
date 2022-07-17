@@ -171,6 +171,6 @@
 }
 @media(max-width: 479px) {
   .header-nav {
-    background-color: var(--dl-color-primary-700);
+    background-color: var(--dl-color-secondary-200);
   }
 }

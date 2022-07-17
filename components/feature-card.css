@@ -14,7 +14,7 @@
   margin-bottom: var(--dl-space-space-unitandahalfunit);
 }
 .feature-card-text {
-  color: var(--dl-color-secondary-600);
+  color: var(--dl-color-primary-700);
   font-size: 1.25rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
