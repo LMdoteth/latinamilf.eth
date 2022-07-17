@@ -880,6 +880,9 @@
     text-align: center;
     background-image: linear-gradient(310deg,#7928ca,#ff0080);
   }
+  .home-contaier {
+    background-color: #121414;
+  }
   .home-card1 {
     width: 753px;
     height: 531px;
