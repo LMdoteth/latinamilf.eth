@@ -169,3 +169,8 @@
     max-width: 960px;
   }
 }
+@media(max-width: 479px) {
+  .header-nav {
+    background-color: var(--dl-color-primary-700);
+  }
+}
