@@ -403,6 +403,9 @@
   }
 }
 @media(max-width: 767px) {
+  .footer-container {
+    height: 315px;
+  }
   .footer-container1 {
     flex-direction: column;
   }
@@ -426,11 +429,29 @@
   }
 }
 @media(max-width: 479px) {
+  .footer-footer {
+    height: 323px;
+    margin-bottom: 3px;
+  }
   .footer-container {
-    height: 316px;
+    height: 312px;
+    margin-bottom: 23px;
+  }
+  .footer-container1 {
+    height: 345px;
+  }
+  .footer-container2 {
+    height: 98px;
+  }
+  .footer-container4 {
+    width: 415px;
+    height: 126px;
   }
   .footer-container5 {
     width: 189px;
+  }
+  .footer-container6 {
+    width: 69px;
   }
 }
 
@@ -1099,19 +1120,28 @@
     margin-bottom: 96px;
   }
   .home-hero2 {
-    width: 479px;
+    width: 438px;
   }
   .home-container10 {
-    width: 478px;
-    height: 603px;
+    width: auto;
+    height: 620px;
     margin-right: 0px;
-    padding-bottom: 100px;
+    padding-right: 0px;
+    padding-bottom: 0px;
   }
   .home-card1 {
-    width: 423px;
-    height: 100%;
+    width: auto;
+    height: 520px;
     padding: var(--dl-space-space-unit);
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 30px;
+  }
+  .home-text47 {
+    margin-top: 25px;
+  }
+  .home-form {
+    width: 100%;
   }
   .home-input {
     width: 350px;
@@ -1120,7 +1150,7 @@
     width: 350px;
   }
   .home-textinput1 {
-    width: 370px;
+    width: 350px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
