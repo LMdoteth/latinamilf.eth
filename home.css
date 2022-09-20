@@ -577,9 +577,9 @@
   justify-content: center;
 }
 .home-image4 {
-  width: 59%;
+  width: 40%;
   object-fit: cover;
-  padding-bottom: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-doubleunit);
 }
 .home-container07 {
   display: flex;
@@ -659,7 +659,7 @@
   justify-content: flex-start;
 }
 .home-text43 {
-  color: var(--dl-color-secondary-600);
+  color: var(--dl-color-secondary-100);
   text-align: left;
   margin-right: var(--dl-space-space-tripleunit);
   margin-bottom: var(--dl-space-space-unit);
@@ -806,6 +806,9 @@
   .home-card {
     margin-top: 0px;
   }
+  .home-text43 {
+    color: var(--dl-color-secondary-100);
+  }
 }
 @media(max-width: 1200px) {
   .home-hero {
@@ -860,6 +863,9 @@
     background-size: cover;
     justify-content: space-between;
     background-image: url("public/playground_assets/web3chain-700h.jpg");
+  }
+  .home-text43 {
+    color: var(--dl-color-secondary-100);
   }
   .home-form {
     width: 524px;
