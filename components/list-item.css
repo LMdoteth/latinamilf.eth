@@ -7,10 +7,21 @@
   flex-direction: column;
 }
 .list-item-text {
-  color: var(--dl-color-secondary-600);
+  color: var(--dl-color-primary-500);
   margin-bottom: var(--dl-space-space-halfunit);
 }
+.list-item-text1 {
+  color: var(--dl-color-secondary-100);
+}
 
+@media(max-width: 1600px) {
+  .list-item-text {
+    color: var(--dl-color-primary-500);
+  }
+  .list-item-text1 {
+    color: var(--dl-color-secondary-100);
+  }
+}
 @media(max-width: 1200px) {
   .list-item-text {
     color: var(--dl-color-primary-500);
