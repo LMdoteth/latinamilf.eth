@@ -43,4 +43,7 @@
   .feature-card-container {
     width: 100%;
   }
+  .feature-card-text1 {
+    color: var(--dl-color-secondary-100);
+  }
 }

@@ -199,12 +199,33 @@
   .footer-container2 {
     height: 98px;
   }
+  .footer-text01 {
+    color: var(--dl-color-secondary-100);
+  }
+  .footer-icon {
+    fill: var(--dl-color-secondary-100);
+  }
+  .footer-icon2 {
+    fill: var(--dl-color-secondary-100);
+  }
+  .footer-icon4 {
+    fill: var(--dl-color-secondary-100);
+  }
   .footer-container4 {
     width: auto;
     height: 126px;
   }
   .footer-container5 {
     width: 189px;
+  }
+  .footer-link2 {
+    color: var(--dl-color-secondary-100);
+  }
+  .footer-link3 {
+    color: var(--dl-color-secondary-100);
+  }
+  .footer-link4 {
+    color: var(--dl-color-secondary-100);
   }
   .footer-root-class-name {
     width: 100%;
