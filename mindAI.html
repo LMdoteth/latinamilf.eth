@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MindAI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background: #262626;
+      color: #E1E1E1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #chatbot {
+        width: 100%;   /* Adjust this to control iframe width */
+        height: 100%; /* Adjust this to control iframe height */
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.12);
+        background: #1C1C1C;
+    }
+
+    /* Responsive Design for devices smaller than 900px */
+    @media screen and (max-width: 900px) {
+      #chatbot {
+        width: 100%;
+        height: 100%;  /* Adjust this to control iframe height on smaller devices */
+      }
+    }
+  </style>
+</head>
+<body>
+  <iframe id="chatbot" src="https://mindai-hfmzvrni7q-uc.a.run.app"></iframe>
+</body>
+</html>
